@@ -5,7 +5,7 @@ Basic Setup for c++20 Modules.
 
 ### Notes
 
-clangd: Restart language server needs to be invoked frequently when structural changes are being made.
+[ctrl + shift + p] "clangd: Restart language server" needs to be invoked frequently when structural changes are being made.
 
 ### Requirements
 
