@@ -7,7 +7,7 @@ import std;
 using namespace std;
 
 string
-Hello::World()
+World::Hello()
 {
   return "Hello World";
 }

@@ -5,7 +5,7 @@ export module Hello:World;
 import std;
 using namespace std;
 
-export struct Hello
+export struct World
 {
-  string World();
+  string Hello();
 };
