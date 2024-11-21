@@ -22,9 +22,7 @@
     "build": { "statusBarVisibility": "icon" },
     "buildTarget": { "statusBarVisibility": "compact" },
     "launchTarget": { "statusBarVisibility": "compact" },
-    "debug": { "statusBarVisibility": "icon" },
-    "testPreset": { "statusBarVisibility": "compact" },
-    "ctest": { "statusBarVisibility": "icon" }
+    "debug": { "statusBarVisibility": "icon" }
   },
   "C_Cpp.inlayHints.parameterNames.enabled": true,
   "git.ignoreLimitWarning": true,
