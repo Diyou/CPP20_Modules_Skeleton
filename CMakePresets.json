@@ -1,0 +1,29 @@
+{
+  "version": 8,
+  "buildPresets": [
+    {
+      "name": "default",
+      "hidden": true
+    },
+    {
+      "name": "Debug",
+      "inherits": ["default"],
+      "configurePreset": "Debug"
+    }
+  ],
+  "configurePresets": [
+    {
+      "name": "default",
+      "hidden": true,
+      "generator": "Ninja"
+    },
+    {
+      "name": "Debug",
+      "inherits": ["default"],
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      },
+      "binaryDir": "${sourceDir}/build/Debug-${hostSystemName}"
+    }
+  ]
+}

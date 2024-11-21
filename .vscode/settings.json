@@ -1,0 +1,33 @@
+{
+  "files.trimFinalNewlines": true,
+  "output.smartScroll.enabled": false,
+  "editor.guides.indentation": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.default.browse.path": ["${workspaceFolder}/Modules"],
+  "C_Cpp.formatting": "clangFormat",
+  "[cpp]": {
+    "files.insertFinalNewline": true,
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "cmake.useCMakePresets": "always",
+  "cmake.options.statusBarVisibility": "hidden",
+  "cmake.options.advanced": {
+    "configurePreset": { "statusBarVisibility": "compact" },
+    "buildPreset": { "statusBarVisibility": "compact" },
+    "build": { "statusBarVisibility": "icon" },
+    "buildTarget": { "statusBarVisibility": "compact" },
+    "launchTarget": { "statusBarVisibility": "compact" },
+    "debug": { "statusBarVisibility": "icon" },
+    "testPreset": { "statusBarVisibility": "compact" },
+    "ctest": { "statusBarVisibility": "icon" }
+  },
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "git.ignoreLimitWarning": true,
+  "clangd.arguments": ["--header-insertion=never", "--clang-tidy"],
+  "C_Cpp.intelliSenseEngine": "disabled"
+}

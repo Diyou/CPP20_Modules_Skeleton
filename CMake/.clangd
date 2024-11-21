@@ -1,0 +1,21 @@
+@COPY_REMARK@
+CompileFlags:
+  CompilationDatabase: '@CMAKE_BINARY_DIR@'  
+
+Hover:
+  ShowAKA: Yes
+
+Index:
+  Background: Build
+  StandardLibrary: Yes
+
+InlayHints:
+  BlockEnd: No
+  Designators: No
+  Enabled: Yes
+  ParameterNames: No
+  DeducedTypes: Yes
+  TypeNameLimit: 24
+
+Diagnostics:
+  UnusedIncludes: Strict
