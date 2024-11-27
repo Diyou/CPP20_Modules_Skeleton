@@ -6,7 +6,7 @@ PUBLIC
         ${CMAKE_CURRENT_LIST_DIR}
     FILES
         _Module.ixx
-        World.ixx
+        World.cppm
 )
 target_sources(Hello-World
 PRIVATE
